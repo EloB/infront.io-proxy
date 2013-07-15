@@ -1,0 +1,32 @@
+{
+  "name": "infront.io-proxy",
+  "version": "0.0.0",
+  "description": "A node http(s) proxy server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EloB/infront.io-proxy.git"
+  },
+  "keywords": [
+    "node",
+    "proxy",
+    "http",
+    "https"
+  ],
+  "author": "Olle \"EloB\" Bröms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EloB/infront.io-proxy/issues"
+  },
+  "devDependencies": {
+    "grunt-mocha-test": "~0.5.0",
+    "grunt": "~0.4.1",
+    "should": "~1.2.2"
+  }
+}
