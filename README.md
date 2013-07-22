@@ -9,3 +9,10 @@ Installation
 ```
 $ npm install infront.io-proxy
 ```
+
+Development
+----------------
+
+```
+$ grunt test
+```

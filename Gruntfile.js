@@ -22,10 +22,10 @@ module.exports = function(grunt) {
 		jshint: {
 			test: {
 				src: [
-					'lib/**/*.js',
-					'test/**/*.js'
+					'lib/**/*.js'
 				],
 				options: {
+					laxcomma: true,
 					globals: {
 						describe: true,
 						it: true,
@@ -45,6 +45,6 @@ module.exports = function(grunt) {
 		}
 	});
 
-	grunt.registerTask('test', ['jshint:test', 'mochaTest:test']);
+	grunt.registerTask('test', ['mochaTest:test']);
 	grunt.registerTask('test:watch', ['test', 'watch:test']);
 };
